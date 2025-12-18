@@ -47,7 +47,11 @@ Thumbs.db
 *.h5
 *.joblib
 
-# Results
-results/figures/*.png
-results/figures/*.jpg
+# Results - Mantém as figuras, ignora apenas modelos pesados
 results/models/*.pkl
+results/models/*.h5
+results/models/*.joblib
+
+# Opcional: Ignorar arquivos temporários de resultados
+results/*.tmp
+results/*.log
